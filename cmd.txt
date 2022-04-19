@@ -1,0 +1,3 @@
+python train_vgg.py --dataset flores --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+
+python predict.py --image images/rosa.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
